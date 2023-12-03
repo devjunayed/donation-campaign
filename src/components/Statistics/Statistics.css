@@ -1,0 +1,31 @@
+
+.recharts-default-legend{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recharts-legend-item{
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.recharts-legend-item span{
+    color: black !important;
+}
+
+@media only screen and (max-width: 425px){
+    .recharts-legend-wrapper{
+        margin-top: 200px !important;
+    }
+    .recharts-default-legend{
+       flex-direction: column;
+       margin: 0px 0px -72px 0px !important;
+    }
+
+    
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul > li> a{
+    font-weight: 400;
+}
+ul > li > a:active{
+    background: none !important;
+}
+ul > li> a:hover{
+    background: none !important;
+    color: #FF444A !important ;
+    text-decoration: underline;
+}
+ul > li > a.active{   
+    color: #FF444A !important;
+    text-decoration: underline !important;
+    background: none !important;
+}

@@ -1,0 +1,6 @@
+.banner-container {
+  background: url("/src/assets/Clothing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
